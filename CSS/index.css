@@ -1,0 +1,47 @@
+.homelink {
+    color: black;
+    text-decoration: none;
+}
+.unite {
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+}
+.link {
+    color: blue;
+}
+.mokuzi {
+    font-size: 30px;
+    font-weight: bold;
+    color: chartreuse;
+}
+ul, ol {
+    padding: 0;
+  }
+  
+  ul li {
+    position: relative;
+    list-style-type: none!important;/*ポチ消す*/
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    background: #dbebf8;
+    vertical-align: middle;
+    color: #505050;
+    border-radius: 15px 0px 0px 15px;/*左側の角丸く*/
+  }
+  
+  ul li:before{ 
+    display:inline-block; 
+    vertical-align: middle;
+    /*以下白丸つくる*/
+    content:'';
+    width:1em;
+    height: 1em;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+.osirase {
+  color: red;
+}
